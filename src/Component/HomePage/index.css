@@ -1,0 +1,88 @@
+.Description{
+    height: 25rem;
+    width:90%;
+    margin:20px;
+    background-color: orange;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.TitleLogo{
+    margin:15%;
+    height:300px;
+    width: 300px;
+    border-radius: 20%;
+}
+
+.Right-Description{
+    margin:7%;
+    display: flex;
+    text-align:left;
+}
+
+.Register{
+    height: 300px;
+    width: 90%;
+    background-color: rgb(201, 201, 245);
+    margin:10px;
+    color:black;
+    text-align: left;
+    padding:12px;
+    border:none;
+    border-radius: 20px;
+}
+
+.Register-Body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.Register-Left{
+    font-weight:bold;
+    margin-left:none;
+    background-color: blue;
+    height: 10rem;
+    width:25rem;
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.Register-Right{
+    font-weight:bold;
+    margin-left:none;
+    background-color: rgb(162, 48, 255);
+    height: 10rem;
+    width:25rem;
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+button{
+    margin-top:25%;
+    margin-left:25%;
+    border-radius: 20px;
+    background-color: rgb(175, 245, 193);
+    border:none;
+    cursor: pointer;
+    width: 50%;
+}
+
+.Transaction_History{
+    height:25rem;
+    width:75%;
+    background-color: rgb(99, 99, 99);
+    border-radius: 20px;
+    margin:5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+h4{
+    color:black;
+}

@@ -1,0 +1,51 @@
+.description{
+    height: 15rem;
+    width:75%;
+    background-color: orange;
+    border-radius: 20px;
+    margin:auto;
+}
+
+.ProfileImage{
+    margin-top:25%;
+    height:150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.description{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.Details{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: flex-start;
+}
+.Transaction_History{
+    height:25rem;
+    width:75%;
+    background-color: rgb(99, 99, 99);
+    border-radius: 20px;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.Transaction_block{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: medium;
+    padding-left:10px;
+}
+button{
+    border-radius: 20px;
+    background-color: rgb(175, 245, 193);
+    border:none;
+    cursor: pointer;
+}
